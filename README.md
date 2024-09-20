@@ -30,7 +30,7 @@ For a draw call, almost the entire pipeline state is specified. Where possible, 
 
 Either
 
-  1) `add_subdirectory(cppgfx), then
+  1) `add_subdirectory(cppgfx)`, then
   2) `target_link_libraries(MyApp PRIVATE cppgfx)`
   3) `#include <cppgfx.hpp>`
 
